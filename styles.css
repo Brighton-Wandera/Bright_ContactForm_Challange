@@ -1,0 +1,114 @@
+body {
+      font-family: Arial, sans-serif;
+      background: #f4f8f5;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .contact-form {
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      max-width: 500px;
+      width: 100%;
+    }
+
+    .contact-form h2 {
+      margin-bottom: 20px;
+      font-size: 22px;
+      color: #222;
+    }
+
+    .group {
+      margin-bottom: 15px;
+      width: 100%;
+    }
+
+    .group label {
+      display: block;
+      font-size: 14px;
+      margin-bottom: 6px;
+      font-weight: 500;
+    }
+
+    .group input[type="text"],
+    .group input[type="email"],
+    .group textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    .row {
+      display: flex;
+      gap: 10px;
+      justify-content: space-between;
+    }
+
+    .radio-group {
+      display: flex;
+      gap: 10px;
+      justify-content: space-between;
+    }
+
+    .radio-option {
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      padding: 10px 15px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .radio-option input[type="radio"] {
+      margin: 0;
+    }
+
+    .group textarea {
+      resize: none;
+      height: 100px;
+    }
+
+    .consent {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+      margin-bottom: 15px;
+    }
+
+    .submit-btn {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      background: #36ad07;
+      color: #fff;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .submit-btn:hover {
+      background: #076856;
+    }
+
+    /* Small required star */
+    .required {
+      color: red;
+      margin-left: 3px;
+    }
+    .attribution{
+        margin-bottom: 20px;
+        justify-content: center;
+        display: flex;
+    }
