@@ -102,13 +102,12 @@ body {
       background: #076856;
     }
 
-    /* Small required star */
     .required {
       color: red;
       margin-left: 3px;
     }
     .attribution{
         margin-bottom: 20px;
-        justify-content: center;
         display: flex;
+        justify-content: center;
     }
